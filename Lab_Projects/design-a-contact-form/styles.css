@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 40px;
+  background-color: #f4f4f4;
+  font-family: 'Arial', sans-serif;
+}
+
+.form-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* 2. Cím */
+h2 {
+  margin-bottom: 20px;
+  color: #333333;
+  font-weight: 600;
+}
+
+label {
+  display: block;
+  margin: 8px;
+  color: #555555;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  transition: border-color 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #a8dadc;
+  outline: none;
+}
+
+button {
+  background-color: #a8dadc;
+  color: #000;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #89c2d9;
+}

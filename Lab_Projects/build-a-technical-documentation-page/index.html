@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Basics Documentation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <nav id="navbar">
+    <header>HTML Basics</header>
+    <a class="nav-link" href="#Introduction">Introduction</a>
+    <a class="nav-link" href="#HTML_Elements">HTML Elements</a>
+    <a class="nav-link" href="#Attributes">Attributes</a>
+    <a class="nav-link" href="#Text_Formatting">Text Formatting</a>
+    <a class="nav-link" href="#Forms_and_Inputs">Forms and Inputs</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <p>HTML (HyperText Markup Language) is the standard language for creating web pages.</p>
+      <p>It structures the content on the web and tells the browser how to display text, images, links, and more.</p>
+      <code>&lt;!DOCTYPE html&gt;</code>
+      <p>The above declaration defines the document as HTML5.</p>
+      <ul>
+        <li>Easy to learn</li>
+        <li>Widely used</li>
+        <li>Supported by all browsers</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="HTML_Elements">
+      <header>HTML Elements</header>
+      <p>HTML documents are made up of elements. These elements define the structure and content.</p>
+      <p>An element is defined by a start tag, some content, and an end tag.</p>
+      <code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code>
+      <p>Some elements are self-closing like <code>&lt;img&gt;</code>.</p>
+      <ul>
+        <li>Block elements</li>
+        <li>Inline elements</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Attributes">
+      <header>Attributes</header>
+      <p>HTML elements can have attributes that provide additional information.</p>
+      <p>Attributes are placed in the start tag and usually come in name/value pairs.</p>
+      <code>&lt;a href="https://example.com"&gt;Link&lt;/a&gt;</code>
+      <p>The href attribute specifies the URL for the link.</p>
+      <ul>
+        <li>href</li>
+        <li>src</li>
+        <li>alt</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Text_Formatting">
+      <header>Text Formatting</header>
+      <p>HTML provides many tags for formatting text.</p>
+      <p>These include bold, italic, underline, and more.</p>
+      <code>&lt;strong&gt;Bold text&lt;/strong&gt;</code>
+      <code>&lt;em&gt;Italic text&lt;/em&gt;</code>
+      <p>These tags help emphasize and structure text meaningfully.</p>
+      <ul>
+        <li>&lt;b&gt;</li>
+        <li>&lt;u&gt;</li>
+        <li>&lt;mark&gt;</li>
+      </ul>
+    </section>
+
+    <section class="main-section" id="Forms_and_Inputs">
+      <header>Forms and Inputs</header>
+      <p>Forms are used to collect user input.</p>
+      <p>The <code>&lt;form&gt;</code> element wraps input fields and submit buttons.</p>
+      <code>&lt;input type="text" name="username"&gt;</code>
+      <code>&lt;input type="submit" value="Send"&gt;</code>
+      <p>Inputs can be of many types like text, password, email, etc.</p>
+      <ul>
+        <li>Text input</li>
+        <li>Password input</li>
+        <li>Submit button</li>
+      </ul>
+    </section>
+  </main>
+
+</body>
+</html>

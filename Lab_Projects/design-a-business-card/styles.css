@@ -1,0 +1,98 @@
+/* Page background and font */
+body {
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2b2b2b; /* dark grey for text */
+  display: flex;
+  justify-content: center;
+}
+
+/* Paragraph margin */
+p {
+  margin: 5px 0;
+}
+
+/* Remove underline from all links */
+a {
+  text-decoration: none;
+  color: #5a4a42; /* muted dark brown */
+  transition: color 0.3s ease;
+}
+a:hover,
+a:focus {
+  color: #ab8c85; /* pastel highlight */
+}
+
+/* Business card container */
+.business-card {
+  width: 300px;
+  background-color: #f2ece6; /* very light warm pastel */
+  padding: 20px;
+  margin: 100px auto 0;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 10px;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+/* Profile image */
+.profile-image {
+  max-width: 100%;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Name, designation, company */
+.full-name {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: #3d2c2a; /* deep brown */
+}
+.designation {
+  font-style: italic;
+  color: #7a665a;
+}
+.company {
+  font-weight: 600;
+  color: #a67b73;
+}
+
+/* Horizontal rule styling */
+hr {
+  border: none;
+  border-top: 1px solid #d7cbc3;
+  margin: 15px 0;
+}
+
+/* Portfolio link styling */
+.portfolio-link {
+  display: inline-block;
+  margin: 10px 0;
+  font-weight: 600;
+  color: #916f6b;
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
+  color: #bfa19a;
+}
+
+/* Social media section */
+.social-media h2 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #6e564f;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+  font-weight: 600;
+  color: #7d6c68;
+}
+.social-media a:hover,
+.social-media a:focus {
+  color: #b19995;
+}

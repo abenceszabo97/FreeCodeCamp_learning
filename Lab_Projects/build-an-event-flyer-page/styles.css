@@ -1,0 +1,74 @@
+
+/* Body styling */
+body {
+  padding: 50px 0;                 /* top & bottom padding */
+  margin: 0 auto;                 /* top & bottom margin 0, horizontal auto for centering */
+  width: 90vw;                   /* width relative to viewport */
+  min-height: calc(100vh - 100px); /* viewport height minus top+bottom padding */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header styling */
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #5c4d7d;
+  margin: 0;
+}
+
+/* Main content styling */
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Section styling */
+section {
+  width: 80%;                
+  margin-bottom: 30px;
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  margin-top: 0;
+  color: #6c63ff;
+  font-size: 1.8rem;
+  margin-bottom: 12px;
+}
+
+section p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+/* HR styling */
+hr {
+  width: 80%;               
+  border: none;
+  border-top: 2px solid #6c63ff;
+  margin: 20px 0;
+}

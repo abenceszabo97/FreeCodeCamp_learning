@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      margin: 2em;
+    }
+
+    h1 {
+      text-align: center;
+      color: #f8c8dc;
+    }
+
+    section {
+      margin-top: 2em;
+      padding: 1.5em;
+      background-color: #1e1e1e;
+      border-radius: 8px;
+    }
+
+    h2 {
+      color: #a8d0e6;
+      margin-bottom: 1em;
+    }
+
+    img {
+      max-width: 150px;
+      display: block;
+      margin-top: 1em;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2em;
+    }
+
+    label {
+      display: flex;
+      flex-direction: column;
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    input[type="text"] {
+      padding: 0.6em;
+      margin-top: 0.3em;
+      border: none;
+      border-radius: 4px;
+      background-color: #2a2a2a;
+      color: #fff;
+    }
+
+    span.required {
+      color: #ff6b6b;
+      margin-left: 0.4em;
+      font-size: 1.1em;
+    }
+
+    p#card-number-help {
+      font-size: 0.9em;
+      color: #cccccc;
+    }
+
+    button {
+      margin-top: 1em;
+      padding: 0.8em;
+      background-color: #f8c8dc;
+      color: #121212;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #ff9bb7;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Checkout</h1>
+
+  <section>
+    <h2>Your Cart</h2>
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="A 3D geometric cube item">
+  </section>
+
+  <section>
+    <h2>Payment Information</h2>
+    <form>
+      <label for="card-name" id="card-name-label">
+        Cardholder Name
+        <span class="required" aria-hidden="true">*</span>
+        <input type="text" id="card-name" name="card-name" required>
+      </label>
+
+     <label for="card-number" id="card-number-label">
+  Card Number
+  <span class="required" aria-hidden="true">*</span>
+</label>
+<input
+  type="text"
+  id="card-number"
+  name="card-number"
+  required
+  aria-describedby="card-number-help"
+/>
+<p id="card-number-help">Enter a 16-digit number without spaces or dashes.</p>
+
+
+      <button type="submit">Complete Purchase</button>
+    </form>
+  </section>
+
+</body>
+</html>

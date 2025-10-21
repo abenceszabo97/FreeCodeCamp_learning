@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Catalog</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 2em;
+    }
+
+    h1 {
+      text-align: center;
+      color: #6a866a;
+      margin-bottom: 1.5em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #1e1e1e;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+    }
+
+    th, td {
+      padding: 1em;
+      text-align: left;
+      border-bottom: 1px solid #333;
+    }
+
+    th {
+      background-color: #2a2a2a;
+      color: #a8d0e6;
+    }
+
+    tbody tr:hover {
+      background-color: #2f2f2f;
+    }
+
+    tfoot td {
+      background-color: #2a2a2a;
+      font-weight: bold;
+      color: #6a866a;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Book Catalog</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>Publication Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>The Great Gatsby</td>
+        <td>F. Scott Fitzgerald</td>
+        <td>Classic</td>
+        <td>1925</td>
+      </tr>
+      <tr>
+        <td>To Kill a Mockingbird</td>
+        <td>Harper Lee</td>
+        <td>Historical Fiction</td>
+        <td>1960</td>
+      </tr>
+      <tr>
+        <td>1984</td>
+        <td>George Orwell</td>
+        <td>Dystopian</td>
+        <td>1949</td>
+      </tr>
+      <tr>
+        <td>Pride and Prejudice</td>
+        <td>Jane Austen</td>
+        <td>Romance</td>
+        <td>1813</td>
+      </tr>
+      <tr>
+        <td>The Hobbit</td>
+        <td>J.R.R. Tolkien</td>
+        <td>Fantasy</td>
+        <td>1937</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">Total Books: 5</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>

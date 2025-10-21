@@ -1,0 +1,72 @@
+/* 1. Root font size */
+html {
+  font-size: 24px;
+}
+
+/* 2. Newspaper container */
+.newspaper {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* 3. Name of newspaper */
+.name {
+  font-size: 2rem;
+  font-family: 'Times New Roman', serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* 4. Date */
+.date {
+  text-align: center;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #555;
+}
+
+/* 5. Headline */
+.headline {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* 6. Sub-headline */
+.sub-headline {
+  font-weight: 100;
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* 7. Author */
+.author {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* 8. Article text */
+.text {
+  text-indent: 20px;
+  line-height: 2em;
+  margin-bottom: 20px;
+}
+
+/* 9. First letter styling */
+.text::first-letter {
+  font-weight: bold;
+  font-size: 2em;
+}

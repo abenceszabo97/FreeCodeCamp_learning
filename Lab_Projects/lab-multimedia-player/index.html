@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Multimedia Player</title>
+  <style>
+    /* Reset and base */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 2rem;
+      background: #f6f5f3; /* soft off-white */
+      color: #222; /* charcoal */
+      line-height: 1.6;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #2f2f2f;
+      margin-bottom: 2rem;
+      font-weight: 700;
+    }
+
+    section {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1.5rem 2rem;
+      margin-bottom: 2rem;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    section h2 {
+      font-size: 1.8rem;
+      color: #444;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #d6cfcf; /* light pastel border */
+      padding-bottom: 0.4rem;
+    }
+
+    audio, video {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+      background: #fafafa;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #444;
+      margin-top: 1rem;
+      padding-left: 0.3rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>My Multimedia Player</h1>
+
+    <!-- First Section: Audio -->
+    <section>
+      <h2>Sailing Away - Audio</h2>
+      <audio controls aria-label="Audio track of Sailing Away">
+        <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <!-- Second Section: Video -->
+    <section>
+      <h2>What is the map method and how does it work? - Video</h2>
+      <video controls width="700" aria-label="Video tutorial explaining the map method">
+        <source src="https://cdn.freecodecamp.org/curriculum/labs/What is the map method and how does it work.mp4" type="video/mp4" />
+        <track 
+          src="https://cdn.freecodecamp.org/curriculum/labs/map-method-captions.vtt" 
+          kind="subtitles" 
+          srclang="en" 
+          label="English" 
+        />
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- Third Section: Transcript -->
+    <section>
+      <h2>Transcript</h2>
+      <p>
+        In this video, we explore the JavaScript map method, which is used to transform arrays in a clean and functional way. 
+        The map method applies a callback function to each element of an array and returns a new array with the results. 
+        This allows you to manipulate data efficiently and write concise, readable code.
+      </p>
+    </section>
+  </main>
+</body>
+</html>

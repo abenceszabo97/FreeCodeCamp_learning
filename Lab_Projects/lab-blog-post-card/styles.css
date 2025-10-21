@@ -1,0 +1,58 @@
+body {
+  background-color: #f0f0f3;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* Blog Post Card container */
+.blog-post-card {
+  background-color: #ffffff; /* white */
+  border-radius: 12px;       /* rounded corners */
+  width: 320px;              /* card width */
+  text-align: left;          /* text alignment */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow: hidden;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Image styles */
+.post-img {
+  width: 100%;              /* fill card width */
+  display: block;
+  border-bottom: 3px solid #6c63ff; /* bottom border */
+  object-fit: cover;
+}
+
+/* Content padding */
+.post-content {
+  padding: 20px;
+}
+
+/* Title and excerpt */
+.post-title,
+.post-excerpt {
+  margin: 15px 0;
+  color: #4a4a6a; /* non-default color - muted blue/purple */
+}
+
+/* Read More button styles */
+.read-more {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 20px 0;
+  background-color: #6c63ff; /* vibrant purple */
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Hover effect for Read More button */
+.read-more:hover {
+  background-color: #524dde;
+}

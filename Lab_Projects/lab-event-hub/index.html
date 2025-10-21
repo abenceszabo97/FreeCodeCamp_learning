@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Event Hub</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', sans-serif;
+        background-color: #121212;
+        color: #e0e0e0;
+        line-height: 1.6;
+      }
+
+      header {
+        background-color: #1e1e1e;
+        padding: 1.5em 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 2px solid #333;
+      }
+
+      h1 {
+        font-size: 2.5em;
+        margin: 0;
+        color: #ffffff;
+        transition: transform 0.3s ease;
+      }
+
+      h1:hover {
+        transform: scale(1.03);
+      }
+
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 2em;
+        padding: 0;
+        margin-top: 1em;
+      }
+
+      nav a {
+        color: #a8d0e6;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease;
+      }
+
+      nav a:hover {
+        color: #f8c8dc;
+      }
+
+      main {
+        max-width: 900px;
+        margin: 2em auto;
+        padding: 1em;
+      }
+
+      section {
+        margin-bottom: 3em;
+        padding: 2em;
+        background-color: #1e1e1e;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+      }
+
+      h2 {
+        color: #ffffff;
+        margin-bottom: 1em;
+      }
+
+      article {
+        margin-bottom: 2em;
+      }
+
+      h3 {
+        margin-bottom: 0.5em;
+        color: #f0f0f0;
+      }
+
+      p {
+        margin-bottom: 0.5em;
+        color: #cccccc;
+      }
+
+      img {
+        max-width: 100%;
+        border-radius: 8px;
+        margin-top: 0.5em;
+        box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+      }
+    </style>
+  </head>
+  <body>
+
+    <header>
+      <h1>Event Hub</h1>
+      <nav>
+        <ul>
+          <li><a href="#upcoming-events">Upcoming Events</a></li>
+          <li><a href="#past-events">Past Events</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="upcoming-events">
+        <h2>Upcoming Events</h2>
+
+        <article>
+          <h3>Tech Conference 2025</h3>
+          <p>
+            Join industry leaders for talks and networking about the future of technology. <br>
+            đź“… March 10, 2025
+          </p>
+        </article>
+
+        <article>
+          <h3>Design & Innovation Summit</h3>
+          <p>
+            A creative gathering exploring modern UI/UX trends and design strategies. <br>
+            đź“… April 15, 2025
+          </p>
+        </article>
+      </section>
+
+      <section id="past-events">
+        <h2>Past Events</h2>
+
+        <article>
+          <h3>AI & Ethics Forum</h3>
+          <p>
+            Experts discussed the ethical implications of artificial intelligence and machine learning. <br>
+            đź“… January 5, 2025
+          </p>
+          <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg" alt="Speakers on stage during the AI & Ethics Forum">
+        </article>
+
+        <article>
+          <h3>Frontend Masters Workshop</h3>
+          <p>
+            A hands-on workshop for modern frontend frameworks, including React and Vue. <br>
+            đź“… February 20, 2025
+          </p>
+          <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="Developers collaborating during a frontend workshop">
+        </article>
+      </section>
+    </main>
+
+  </body>
+</html>

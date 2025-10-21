@@ -1,0 +1,41 @@
+body {
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 40px;
+  font-family: 'Arial', sans-serif;
+}
+
+.color-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.color-box {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.color1 {
+  background-color: #a8dadc; /* HEX */
+}
+
+.color2 {
+  background-color: rgb(200, 200, 200); /* RGB */
+}
+
+.color3 {
+  background-color: lightpink; /* named color */
+}
+
+.color4 {
+  background-color: hsl(180, 40%, 80%); /* HSL */
+}
+
+.color5 {
+  background-color: #333333;
+}
